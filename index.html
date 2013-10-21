@@ -1,0 +1,38 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Layout android in html</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="style/gral_style.css">
+        <script type="text/javascript" src="script/jquery.js"></script>
+        <script type="text/javascript" src="script/layout.js"></script>
+    </head>
+    <body>
+        <FrameLayout
+            layout_width="match_parent"
+            layout_height="match_parent"
+            background="black"
+            id="fra1">
+            <TextView
+                id="txtNombre"
+                layout_width="wrap_content"
+                layout_height="wrap_content"
+                background="blue"
+                text="Ronald coarite mamani"
+                layout_gravity="left|bottom">
+            </TextView>
+            <TextView
+                id="txtOtroasda"
+                layout_width="wrap_content"
+                layout_height="wrap_content"
+                background="yellow"
+                text="Hello"
+                layout_gravity="center">
+            </TextView>
+        </FrameLayout>
+    </body>
+</html>
